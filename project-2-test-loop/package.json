@@ -1,0 +1,9 @@
+{
+  "name": "project-2-test-loop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loop Engineering Project 2 — conditional loop that fixes failing tests.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
