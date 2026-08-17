@@ -1,0 +1,9 @@
+{
+  "name": "project-6-doorbell-loop",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loop Engineering Project 6 — a loop that fires on an external event (a PR) instead of a timer.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
