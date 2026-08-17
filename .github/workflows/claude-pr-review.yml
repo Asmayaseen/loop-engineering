@@ -34,3 +34,7 @@ jobs:
             Leave a single PR comment summarizing what you found. If nothing
             significant stands out, say so briefly rather than inventing
             issues.
+
+            After writing your review, you MUST actually run
+            `gh pr comment --body "<your review>"` via Bash to post it —
+            producing the review as text alone does not post it anywhere.
