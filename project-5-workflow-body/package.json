@@ -1,0 +1,9 @@
+{
+  "name": "project-5-workflow-body",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Loop Engineering Project 5 — codifying project-4's fix loop into a reusable workflow across three independent bugs.",
+  "scripts": {
+    "test": "node --test"
+  }
+}
