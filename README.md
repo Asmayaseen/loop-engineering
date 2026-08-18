@@ -1,8 +1,14 @@
-# Loop Engineering — 8 Projects
+# Loop Engineering — 12 Projects
+
+> **Reading order note:** GitHub's file browser sorts folders alphabetically, not
+> numerically — so it lists `project-1`, `project-10`, `project-11`, `project-12`,
+> `project-2`, `project-3`, ... rather than 1 through 12 in order. The table below is
+> the correct numeric reading order; use it instead of the file browser's own listing.
 
 A course in building loops that work unattended: from a simple timer that dies with your
 terminal, up to a capstone loop that fixes real bugs, gets independently reviewed, opens real
-PRs, and stays idempotent across dozens of unattended firings.
+PRs, and stays idempotent across dozens of unattended firings — then a second capstone that
+rehearses, secures, gates, and finally reviews its own history to improve itself.
 
 ## Projects
 
@@ -16,6 +22,10 @@ PRs, and stays idempotent across dozens of unattended firings.
 | 6 | Doorbell Loop | Event-driven loop (fires on a PR, not a timer) | [project-6-doorbell-loop](project-6-doorbell-loop) |
 | 7 | Break It On Purpose | Cost measurement + observability (fail loud) | [project-7-break-it-on-purpose](project-7-break-it-on-purpose) |
 | 8 | Daily Loop | Capstone — all six parts combined | [project-8-daily-loop](project-8-daily-loop) |
+| 9 | Rehearse a Routine | Cloud routine rehearsal (one-off runs before scheduling; green ≠ success) | [project-9-rehearse-routine](project-9-rehearse-routine) |
+| 10 | The Secrets Drill | Secrets storage (env-vars panel survives a clone; gitignored `.env` doesn't) | [project-10-secrets-drill](project-10-secrets-drill) |
+| 11 | The Two-Routine Gate | Human gate (draft-only routine + API-triggered action routine) | [project-11-routine-gate](project-11-routine-gate) |
+| 12 | The Dreaming Loop | Meta-loop (reviews another loop's history, drafts rule fixes as PRs) | [project-12-dreaming-loop](project-12-dreaming-loop) |
 
 ## What This Repo Demonstrates
 
