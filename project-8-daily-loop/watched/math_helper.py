@@ -12,6 +12,8 @@ def is_prime(n):
     same reason: an empty range trivially finds no divisors.) The fix
     needs an explicit "n < 2 -> not prime" guard before the loop.
     """
+    if n < 2:
+        return False
     for divisor in range(2, n):
         if n % divisor == 0:
             return False
