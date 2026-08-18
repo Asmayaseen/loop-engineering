@@ -1,6 +1,6 @@
 ---
 name: dreaming-loop
-description: Run the weekly "dreaming" review over project-8-daily-loop's progress.md — look for the same failure or correction repeating across multiple runs since the last review, and if found, draft the smallest rules-file change that would prevent it, as a PR (never a direct commit), citing the exact evidence. Use whenever the user asks to run the dreaming loop, review the daily loop's history for patterns, or propose rule changes based on repeated daily-loop issues.
+description: Run the weekly "dreaming" review over project-08-daily-loop's progress.md — look for the same failure or correction repeating across multiple runs since the last review, and if found, draft the smallest rules-file change that would prevent it, as a PR (never a direct commit), citing the exact evidence. Use whenever the user asks to run the dreaming loop, review the daily loop's history for patterns, or propose rule changes based on repeated daily-loop issues.
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep
 ---
 
@@ -21,7 +21,7 @@ the same stretch of history or, worse, skipping a stretch entirely.
 
 ## 2. Read what happened since then
 
-Read every dated entry in `../project-8-daily-loop/progress.md` with a date after the last
+Read every dated entry in `../project-08-daily-loop/progress.md` with a date after the last
 reviewed date (or all entries, on a first run). This is raw material, not something to
 summarize yet — read the actual run entries, not a description of them.
 
@@ -44,7 +44,7 @@ having run.
 ## 4. Draft the smallest possible rule change
 
 If a pattern was found, draft the smallest edit to a rules file that would have prevented it.
-The target is `../project-8-daily-loop/CLAUDE.md` — create it if it doesn't exist yet, using
+The target is `../project-08-daily-loop/CLAUDE.md` — create it if it doesn't exist yet, using
 the same style as this repo's other `CLAUDE.md` files (an `@AGENTS.md` import, or, if no
 `AGENTS.md` exists for that project, a short direct instruction). "Smallest" means:
 
@@ -73,7 +73,7 @@ rule out.
 ## 6. Propose one deletion candidate
 
 Separately from the addition (if any), look at the rules currently in
-`../project-8-daily-loop/CLAUDE.md` (or `AGENTS.md`/`SKILL.md` instructions it's reasonable to
+`../project-08-daily-loop/CLAUDE.md` (or `AGENTS.md`/`SKILL.md` instructions it's reasonable to
 review) and check whether any existing rule was never actually invoked by the runs reviewed
 this cycle — a rule sitting there unused. If one exists, propose removing it in the same PR
 (or note it in the PR description as a candidate for a human to confirm), with the same

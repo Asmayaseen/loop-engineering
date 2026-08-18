@@ -5,7 +5,7 @@
 ## What This Project Does
 
 This is a loop that watches another loop, not code. Once a week, it reads
-`project-8-daily-loop/progress.md` — the daily loop's own spine — going back only as far as
+`project-08-daily-loop/progress.md` — the daily loop's own spine — going back only as far as
 `dreaming-state.md`'s last-reviewed date, and looks for the *same* failure or correction
 showing up more than once across separate runs. If it finds one, it drafts the smallest
 possible change to a rules file that would prevent it, and opens that as a PR — never a
@@ -29,7 +29,7 @@ occurrences as one pattern, and proposes fixing the *rule*, not just the *instan
    failure or correction appearing in **2 or more separate run entries** is treated as a real
    pattern worth acting on.
 4. **Draft the smallest rule change** that would have prevented it — one or two sentences,
-   added to `project-8-daily-loop/CLAUDE.md` (created if it doesn't exist yet), never a
+   added to `project-08-daily-loop/CLAUDE.md` (created if it doesn't exist yet), never a
    rewrite of the whole rules file.
 5. **Open a PR, never commit directly** — a new `claude/dream-<topic>` branch, pushed, PR'd.
    The PR description must cite the *exact* evidence: which `progress.md` entries, which
@@ -51,13 +51,13 @@ occurrences as one pattern, and proposes fixing the *rule*, not just the *instan
 ## How To Run It
 
 Invoke the `dreaming-loop` skill. It reads `dreaming-state.md` and
-`../project-8-daily-loop/progress.md` itself — there's no separate command to run first.
+`../project-08-daily-loop/progress.md` itself — there's no separate command to run first.
 
 ## What I Observed
 
 Not yet run — `dreaming-state.md` still says "none yet," and no `claude/dream-*` branch or PR
 exists. For context on what a first run would actually see:
-`project-8-daily-loop/progress.md` currently holds 10 real run entries — a genuine fix cycle
+`project-08-daily-loop/progress.md` currently holds 10 real run entries — a genuine fix cycle
 (2 real bugs found and merged via PR #2/#3), one deliberate "hold off, PRs still open"
 no-op, and then seven consecutive clean "11 passed, 0 failed" firings from a session cron
 job. None of those entries currently repeat the *same* failure or correction twice — the two

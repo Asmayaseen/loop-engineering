@@ -1,6 +1,6 @@
 ---
 name: daily-loop
-description: Run the full daily loop for project-8-daily-loop -- find failing tests under watched/, fix each broken module on its own isolated branch, have an independent reviewer subagent grade every fix, open a PR only for low-risk passing fixes (capped at 5 per run), and log everything else for a human. Use whenever the user asks to run the daily loop, check the watched folder, or process today's failing tests for project-8-daily-loop.
+description: Run the full daily loop for project-08-daily-loop -- find failing tests under watched/, fix each broken module on its own isolated branch, have an independent reviewer subagent grade every fix, open a PR only for low-risk passing fixes (capped at 5 per run), and log everything else for a human. Use whenever the user asks to run the daily loop, check the watched folder, or process today's failing tests for project-08-daily-loop.
 allowed-tools: Bash, Read, Write, Edit, Glob, Grep, Agent
 ---
 

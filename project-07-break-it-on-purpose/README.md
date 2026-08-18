@@ -6,7 +6,7 @@
 
 This project contains no new code of its own. Per the course's instruction to "take your
 Project 3 loop," Project 7 was performed directly against
-[`../project-3-morning-brief`](../project-3-morning-brief) — its existing TODO-scanning
+[`../project-03-morning-brief`](../project-03-morning-brief) — its existing TODO-scanning
 "morning brief" loop (`run-brief.md` + `progress.md`) — to measure what one beat of a real
 loop costs, and to deliberately sabotage it to confirm it fails loudly instead of silently.
 
@@ -34,16 +34,16 @@ Two independent exercises, both against Project 3's existing loop:
 
 | File | Purpose |
 |---|---|
-| `README.md` | This file — documents what was done to `project-3-morning-brief` and why |
+| `README.md` | This file — documents what was done to `project-03-morning-brief` and why |
 
 (All code, `run-brief.md`, and `progress.md` for this exercise live in
-`../project-3-morning-brief/` — see that project's own README for the mechanism itself.)
+`../project-03-morning-brief/` — see that project's own README for the mechanism itself.)
 
 ## How To Run It
 
 There's nothing to run in this folder directly. To reproduce:
 ```
-cd ../project-3-morning-brief
+cd ../project-03-morning-brief
 # read run-brief.md, src/app.js, src/utils.js, progress.md
 # estimate tokens for one beat, project monthly cost at a few cadences
 # then deliberately break run-brief.md step 1 and re-run the brief
@@ -62,7 +62,7 @@ cd ../project-3-morning-brief
 
 **Sabotage result:** the run failed loudly with an explicit `File does not exist` error at
 step 1, rather than continuing on to produce a fabricated "no new TODOs" entry. It was logged
-verbatim in `project-3-morning-brief/progress.md` as `## 2026-08-18 (run 8) — NEEDS A
+verbatim in `project-03-morning-brief/progress.md` as `## 2026-08-18 (run 8) — NEEDS A
 HUMAN`, naming the exact step that failed, the missing filename, and what a human needs to
 do. Reading *only* that log entry — no other file, no conversation context — was enough to
 correctly reconstruct what failed, when, and why, confirming the entry is self-contained.

@@ -1,6 +1,6 @@
 ---
 name: fix-bug
-description: Fix a failing test in this project by correcting the bug in src/, without touching the tests themselves. Use whenever the user asks to fix the calculator bug, make the failing tests pass, or run the fix loop for project-4-fix-loop.
+description: Fix a failing test in this project by correcting the bug in src/, without touching the tests themselves. Use whenever the user asks to fix the calculator bug, make the failing tests pass, or run the fix loop for project-04-fix-loop.
 allowed-tools: Bash, Read, Edit
 ---
 

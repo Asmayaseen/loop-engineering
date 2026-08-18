@@ -1,9 +1,10 @@
 # Loop Engineering — 12 Projects
 
-> **Reading order note:** GitHub's file browser sorts folders alphabetically, not
-> numerically — so it lists `project-1`, `project-10`, `project-11`, `project-12`,
-> `project-2`, `project-3`, ... rather than 1 through 12 in order. The table below is
-> the correct numeric reading order; use it instead of the file browser's own listing.
+> **Folder naming note:** GitHub's file browser sorts folders alphabetically, not
+> numerically, which used to list `project-1`, `project-10`, `project-11`, `project-12`,
+> `project-2`, ... out of order. Folders below 10 are now zero-padded (`project-01`, not
+> `project-1`) specifically so the file browser's own alphabetical listing matches the
+> 1–12 order in the table below — no separate reading-order workaround needed.
 
 A course in building loops that work unattended: from a simple timer that dies with your
 terminal, up to a capstone loop that fixes real bugs, gets independently reviewed, opens real
@@ -14,15 +15,15 @@ rehearses, secures, gates, and finally reviews its own history to improve itself
 
 | # | Project | Concept | Folder |
 |---|---------|---------|--------|
-| 1 | Watcher Loop | In-session loop (dies when the session closes) | [project-1-watcher-loop](project-1-watcher-loop) |
-| 2 | Test Loop | Conditional loop (repeat until a check passes) | [project-2-test-loop](project-2-test-loop) |
-| 3 | Morning Brief | The spine (append-only log a loop reads/writes) | [project-3-morning-brief](project-3-morning-brief) |
-| 4 | Fix Loop | Maker-checker (fixer skill + independent reviewer) | [project-4-fix-loop](project-4-fix-loop) |
-| 5 | Workflow Body | Reusable process across independent targets | [project-5-workflow-body](project-5-workflow-body) |
-| 6 | Doorbell Loop | Event-driven loop (fires on a PR, not a timer) | [project-6-doorbell-loop](project-6-doorbell-loop) |
-| 7 | Break It On Purpose | Cost measurement + observability (fail loud) | [project-7-break-it-on-purpose](project-7-break-it-on-purpose) |
-| 8 | Daily Loop | Capstone — all six parts combined | [project-8-daily-loop](project-8-daily-loop) |
-| 9 | Rehearse a Routine | Cloud routine rehearsal (one-off runs before scheduling; green ≠ success) | [project-9-rehearse-routine](project-9-rehearse-routine) |
+| 1 | Watcher Loop | In-session loop (dies when the session closes) | [project-01-watcher-loop](project-01-watcher-loop) |
+| 2 | Test Loop | Conditional loop (repeat until a check passes) | [project-02-test-loop](project-02-test-loop) |
+| 3 | Morning Brief | The spine (append-only log a loop reads/writes) | [project-03-morning-brief](project-03-morning-brief) |
+| 4 | Fix Loop | Maker-checker (fixer skill + independent reviewer) | [project-04-fix-loop](project-04-fix-loop) |
+| 5 | Workflow Body | Reusable process across independent targets | [project-05-workflow-body](project-05-workflow-body) |
+| 6 | Doorbell Loop | Event-driven loop (fires on a PR, not a timer) | [project-06-doorbell-loop](project-06-doorbell-loop) |
+| 7 | Break It On Purpose | Cost measurement + observability (fail loud) | [project-07-break-it-on-purpose](project-07-break-it-on-purpose) |
+| 8 | Daily Loop | Capstone — all six parts combined | [project-08-daily-loop](project-08-daily-loop) |
+| 9 | Rehearse a Routine | Cloud routine rehearsal (one-off runs before scheduling; green ≠ success) | [project-09-rehearse-routine](project-09-rehearse-routine) |
 | 10 | The Secrets Drill | Secrets storage (env-vars panel survives a clone; gitignored `.env` doesn't) | [project-10-secrets-drill](project-10-secrets-drill) |
 | 11 | The Two-Routine Gate | Human gate (draft-only routine + API-triggered action routine) | [project-11-routine-gate](project-11-routine-gate) |
 | 12 | The Dreaming Loop | Meta-loop (reviews another loop's history, drafts rule fixes as PRs) | [project-12-dreaming-loop](project-12-dreaming-loop) |

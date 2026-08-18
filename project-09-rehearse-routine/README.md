@@ -48,7 +48,7 @@ This repo needs to exist on GitHub before a Routine can be created against it (a
 clones the repo to run), so the first step is committing and pushing this folder. After that:
 
 1. Create the Routine (one-off, no schedule yet) pointed at this repo, with the task
-   "summarize yesterday's commits into `project-9-rehearse-routine/commits-summary.md`."
+   "summarize yesterday's commits into `project-09-rehearse-routine/commits-summary.md`."
 2. Trigger it manually.
 3. Read `commits-summary.md` yourself — don't trust the Routine's own status report.
 4. Repeat until the output is consistently correct, *then* attach a schedule.
