@@ -126,6 +126,28 @@ Seventh consecutive automatic firing from cron job `ec27fb72` with no
 manual invocation in between — same clean, unchanged conclusion as runs
 4-9.
 
+## 2026-08-19 (run 11 — SYNTHETIC TEST DATA, planted to test the dreaming-loop skill)
+
+New failing module found: watched/list_helper.py. Created claude/fix-list_helper from
+local main without first pulling origin/main — local main was 2 commits behind. The fix
+itself was correct, but the reviewer flagged the branch was missing an unrelated file
+already merged to origin/main, so the branch had to be deleted and recreated from a
+freshly-pulled main before the PR could be opened. Lost ~10 minutes to the redo.
+
+## 2026-08-19 (run 13 — SYNTHETIC TEST DATA, planted to test the dreaming-loop skill)
+
+New failing module found: watched/date_helper.py. Same issue as run 11: claude/fix-date_helper
+was branched from local main before pulling; local main was 1 commit behind origin/main.
+Caught before pushing this time, but only because the reviewer diffed against origin/main
+explicitly rather than local main. Branch was recreated from a freshly-pulled main.
+
+## 2026-08-19 (run 15 — SYNTHETIC TEST DATA, planted to test the dreaming-loop skill)
+
+New failing module found: watched/currency_helper.py. Third occurrence of the same root
+cause: claude/fix-currency_helper branched from local main, which had not been pulled since
+run 13 and was now 3 commits behind origin/main. Branch recreated from a freshly-pulled main
+before opening the PR. This is the third run in a row with this exact issue.
+
 ## In progress
 
 (empty for now)
